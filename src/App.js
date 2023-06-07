@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MovingText from './Components/MovingText.js';
+import Navbar from './Components/Navbar';
+import Carousel from './Components/Carousel';
+import ChooseFromProducts from './Components/ChooseFromProducts';
+import WhyPentad from './Components/WhyPentad';
+import OurPlatforms from './Components/OurPlatforms';
+import MemberBroker from './Components/MemberBroker ';
+import RecentBlogs from './Components/RecentBlogs';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <MovingText/>
+    <Navbar/>
+    <Carousel/>
+    <ChooseFromProducts/>
+    <WhyPentad/>
+    <OurPlatforms/>
+    <MemberBroker/>
+    <RecentBlogs/>
+    <Footer/>
     </div>
   );
 }

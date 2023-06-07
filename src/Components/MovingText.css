@@ -1,0 +1,36 @@
+.moving-text {
+    overflow: hidden;
+    background-color: black;
+  color: white;
+  }
+  
+  .moving-text marquee {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Adjust styles for mobile devices */
+  @media (max-width: 576px) {
+    .moving-text marquee {
+        margin-top: 5px;
+    margin-bottom: 5px;
+      font-size: 10px;
+    }
+  }
+  
+  /* Adjust styles for tablets */
+  @media (max-width: 992px) {
+    .moving-text marquee {
+      font-size: 12px;
+      margin-top: 5px;
+    margin-bottom: 5px;
+    }
+  }
+  
+  /* Adjust styles for larger screens (PC) */
+  @media (min-width: 992px) {
+    .moving-text marquee {
+      font-size: 15px;
+    }
+  }
